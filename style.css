@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+video{
+    width: 100%;
+}
+.background{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  height: 100vh ;
+  object-fit: fill;
+  overflow: hidden;
+}
+.logo{
+    position: absolute;
+    top: 12px;
+    left: 75px;
+}
+.logo img{
+  width: 60px;
+}
+.nav-bar{
+    top: 12px;
+    right: 5px;
+    position: absolute;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: end;
+    float:right;
+}
+.nav-section ul{
+display: flex;
+gap: 60px;
+margin-right: 50px;
+}
+
+
+.nav-section li{
+ list-style-type: none;
+ padding-top: 20px;
+ color: white;
+ font-size: small;
+}
+hr{
+  width: 70rem;
+  margin-top: 20px;
+  float:right;
+}
+.nav-bottom{
+  display: flex;
+  padding-top: 10px;
+  float:right;
+}
+.nav-bottom ul{
+  display: flex;
+  gap: 40px;
+}
+.nav-bottom li{
+  list-style-type: none;
+  color: white;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.search-icon{
+  margin-left: 295px;
+}
+
+.main-section-1{
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+}
+
+.section-1-details{
+  margin-top: 160px;
+}
+
+.section-1-details h1{
+  color: white;
+  font-size: 40px;
+  margin-left: 28px;
+}
+
+.section-1-details h3{
+  color: white;
+  margin-left: 28px;
+  font-size: 20px;
+  padding-top: 22px;
+  font-weight: 300;
+}
+
+.section-1-btn{
+  margin-left: 28px;
+  margin-top: 20px;
+  background-color: yellow;
+  width: 175px;
+  height: 45px;
+  border: none;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.section-1-btn:hover{
+ background-color:#ebb227;
+}
+.main-section-1 hr{
+  width: 82rem;
+  margin-right: 2rem;
+  margin-top: 50px;
+}
+
+.section-1-bottom{
+  margin-left: 25px;
+  padding-top: 35px;
+  display: flex;
+  justify-content: start;
+  gap: 150px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+.main-section-2{
+  background-color: white;
+  height: 100%;
+  display: flex;
+}
+.left-main-section-2{
+border: 1px solid rgb(179, 183, 192);
+width: 590px;
+height: 380px;
+margin-left: 45px;
+margin-top: 135px;
+padding-top: 40px;
+padding-left: 40px;
+}
+
+.left-main-section-2 h2{
+  font-size: 15px;
+  font-weight: 200;
+  color:  #414141;
+  line-height: 17px;
+  padding-bottom: 10px;
+}
+
+.left-main-section-2 p{
+  font-size: 15px;
+  font-weight: 200;
+  color:  #414141;
+  line-height: 25px;
+  padding-top: 40px;
+}
+.left-main-section-2 h6{
+  font-size: 32px;
+  color: #54565a;
+}
+.left-main-section-2-btn{
+  background-color: yellow;
+  width: 175px;
+  height: 45px;
+  border: none;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.left-main-section-2-btn:hover{
+  background-color:#ebb227;
+ }
+
+ .left-main-section-2-btn-2{
+  padding-left: 30px;
+  color: #0047bb;
+  border: none;
+  background-color: white;
+  display:inline-flex;
+  align-items: center;
+ }
+.left-main-section-2-btn-2 span{
+padding-left: 5px;
+}
+
+.right-main-section-2{
+  margin-top: 170px;
+  position: absolute;
+  left: 580px;
+}
+
+.hydrogen-video{
+  width: 700px;
+}
+
+.thumbnail-section-2 img{
+width: 95px;
+height: 80px;
+opacity: 0.7;
+transition-duration: .4s;
+transition-delay: .2s;
+}
+.thumbnail-section-2 img:hover{
+  opacity: 1;
+}
+.main-section-3{
+  height: 100vh;
+  background-color:  rgb(228, 230, 235);
+  margin-top: 200px;
+  padding-left: 28px;
+}
+.main-section-3 h2{
+  padding-top: 60px;
+  font-size: 24px;
+  color: #54565a;
+  padding-bottom: 40px;
+}
+
+.top-left-section-3-img-1{
+ width: 730px;
+ height: 260px;
+ position: relative;
+}
+.top-left-section-3-img-1 img{
+  width: 100%;
+  height: 260px;
+  
+}
+.date-box{
+  position: absolute;
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 50px;
+  height: 55px;
+  background-color:#0047bb;
+  color: white;
+  left: 12px;
+  top: 12px;
+}
+
+.date-box h6{
+  font-size: 15px;
+}
+.date-box h5{
+  font-size: 28px;
+}
+.top-left-section-3-text-1{
+  position: absolute;
+  left: 12px;
+  top: 170px;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.top-left-section-3-text-2{
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 20px;
+  left: 12px;
+  top: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width:700px;
+}
+
+
+
