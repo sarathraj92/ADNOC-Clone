@@ -7,6 +7,7 @@
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 video{
@@ -34,33 +35,45 @@ video{
     position: absolute;
 }
 
-.nav-section{
+.nav-header{
     display: flex;
     justify-content: end;
     float:right;
+    padding-bottom: 15px;
 }
-.nav-section ul{
+
+.nav-header ul{
 display: flex;
 gap: 60px;
 margin-right: 50px;
 }
 
-
-.nav-section li{
+.nav-header li{
  list-style-type: none;
  padding-top: 20px;
  color: white;
  font-size: small;
 }
-hr{
-  width: 70rem;
-  margin-top: 20px;
-  float:right;
+.nav-header li::after{
+  content:'';
+  width: 100%;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: -14px;
+  background: #ebb227;
+  display: block;
+  transition: 0.3s;
+  opacity: 0;
 }
+.nav-header li:hover::after{
+  opacity: 1;
+}
+
 .nav-bottom{
   display: flex;
   padding-top: 10px;
   float:right;
+  border-top: 1px solid white;
 }
 .nav-bottom ul{
   display: flex;
@@ -85,6 +98,7 @@ hr{
 
 .section-1-details{
   margin-top: 160px;
+  padding-bottom: 60px;
 }
 
 .section-1-details h1{
@@ -116,11 +130,6 @@ hr{
 .section-1-btn:hover{
  background-color:#ebb227;
 }
-.main-section-1 hr{
-  width: 82rem;
-  margin-right: 2rem;
-  margin-top: 50px;
-}
 
 .section-1-bottom{
   margin-left: 25px;
@@ -131,6 +140,7 @@ hr{
   color: white;
   font-size: 15px;
   font-weight: 300;
+  border-top: 1px solid white;
 }
 .main-section-2{
   background-color: white;
